@@ -1,0 +1,39 @@
+.brxe-ba-icon-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.brxe-ba-icon-list {
+    width: 100%;
+}
+
+.brxe-ba-icon-list .title-wrapper {
+    gap: 7px
+}
+
+.brxe-ba-icon-list .highlight {
+    display: inline-block
+}
+
+.brxe-ba-icon-list .ba-icon-list-circle {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.brxe-ba-icon-list .title-wrapper {
+    display: flex;
+    align-items: center
+}
+
+.brxe-ba-icon-list .separator {
+    flex: 1;
+    flex-basis: 0%;
+    flex-basis: 50px;
+    border-top-width: 1px;
+    border-top-style: solid
+}
